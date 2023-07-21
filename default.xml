@@ -3,9 +3,9 @@
 
   <default sync-j="4" revision="dunfell"/>
 
-  <remote fetch="git://git.yoctoproject.org/poky" name="yocto"/>
-  <remote fetch="https://git.yoctoproject.org/meta-raspberrypi" name="raspberrypi"/>
-  <remote fetch="git://git.openembedded.org/meta-openembedded" name="oe"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://git.yoctoproject.org" name="raspberrypi"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
 
   <project remote="yocto" revision="dunfell" name="poky" path="sources/poky"/>
   <project remote="raspberrypi" revision="dunfell" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
