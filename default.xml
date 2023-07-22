@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="dunfell"/>
+  <default sync-j="4" />
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="https://git.yoctoproject.org" name="raspberrypi"/>
